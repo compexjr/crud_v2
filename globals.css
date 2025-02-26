@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+    --rounded-xs: 0.200rem;
+}
