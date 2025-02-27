@@ -1,11 +1,9 @@
-import TaskFilterBar from "@/components/task-filter-bar/page";
+import TaskFilterBar from "@/components/task-filter-bar";
 
 export default function Home() {
   return (
-    <main>
-      <div>
-        <TaskFilterBar />
-      </div>
+    <main className="px-6 py-4">
+      <TaskFilterBar />
     </main>
   );
 }
